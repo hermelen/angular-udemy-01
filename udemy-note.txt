@@ -1,0 +1,11 @@
+Firefox load src/index.html
+index.html contain script that load 'src/main.ts'
+main.ts import 'src/app/app.module'
+app.module import AppComponent from './app.component.ts'; 
+app.component.ts load that:
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
+})
+
